@@ -71,20 +71,20 @@ strong {
 }
 
 .weather-icon {
-  font-size: 54px;
-  color: rgb(193, 212, 212);
-  margin-top: 26px;
+  width: 88px;
+  height: 88px;
 }
 
 .current-temp {
   font-size: 88px;
+  line-height: 88px;
   font-weight: bold;
   margin-left: 10px;
 }
 
 .temp-unit {
   font-size: 28px;
-  margin-top: 18px;
+  margin-top: 8px;
 }
 
 footer {
