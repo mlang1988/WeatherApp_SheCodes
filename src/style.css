@@ -39,3 +39,50 @@ header {
   font-size: 16px;
   margin-left: 5px;
 }
+
+main {
+  margin-top: 30px;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city-input {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-details {
+  color: rgba(73, 72, 72, 0.5);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+strong {
+  color: rgb(51, 51, 243);
+}
+
+.temp-container {
+  display: flex;
+}
+
+.weather-icon {
+  font-size: 54px;
+  color: rgb(193, 212, 212);
+  margin-top: 26px;
+}
+
+.current-temp {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.temp-unit {
+  font-size: 28px;
+  margin-top: 18px;
+}
