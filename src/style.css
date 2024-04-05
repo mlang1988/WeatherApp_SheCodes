@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #efece6d1;
   font-family: "Ysabeau", sans-serif;
 }
 
@@ -17,12 +17,12 @@ a {
 }
 
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid #efece6d1;
   padding-bottom: 30px;
 }
 
 .search-input {
-  background-color: #f9f7fe;
+  background-color: #efece6d1;
   width: 80%;
   border: none;
   border-radius: 10px;
@@ -88,7 +88,7 @@ strong {
 }
 
 footer {
-  border-top: 1px solid #f9f7fe;
+  border-top: 1px solid #efece6d1;
   padding-left: 30px;
   text-align: center;
   font-size: 15px;
