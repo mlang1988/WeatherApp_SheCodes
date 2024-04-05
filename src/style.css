@@ -90,12 +90,36 @@ strong {
 .weather-forecast {
   display: flex;
   justify-content: space-between;
-  margin: 15px 20px;
+  margin: 10px 20px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.5);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #6ac1b8;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
 }
 
 footer {
   border-top: 1px solid #efece6d1;
-  padding-left: 30px;
   text-align: center;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.6);
