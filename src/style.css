@@ -18,7 +18,7 @@ a {
 
 header {
   border-bottom: 1px solid #efece6d1;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .search-input {
@@ -41,7 +41,7 @@ header {
 }
 
 main {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .weather-data {
