@@ -1,6 +1,17 @@
 body {
-  background-color: #efece6d1;
   font-family: "Ysabeau", sans-serif;
+}
+
+.day {
+  background-image: url(https://images.unsplash.com/photo-1514315153150-cd7d8d716178?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.night {
+  background-image: url(https://images.unsplash.com/photo-1595520519880-a86c48ea536c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -8,7 +19,7 @@ a {
 }
 
 .weather-app {
-  background: #e1f6f4;
+  background: #e1f6f4e6;
   max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);

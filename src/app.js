@@ -64,7 +64,7 @@ function formatDay(timestamp) {
 function getForecast(city) {
   let apiKey = "b0c48dt2da1edfa05b13oc7376330d93";
   let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
-  axios(apiUrl).then(displayForecast);
+  axios.get(apiUrl).then(displayForecast);
 }
 
 function displayForecast(response) {
@@ -95,7 +95,18 @@ function displayForecast(response) {
   forecastElement.innerHTML = forecastHtml;
 }
 
+function changeBackground() {
+  let date = new Date();
+  let hours = date.getHours();
+  if (hours < 8 || hours >= 20) {
+    document.body.className = "night";
+  } else {
+    document.body.className = "day";
+  }
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Mainz");
+changeBackground();
